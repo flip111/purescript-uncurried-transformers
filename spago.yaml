@@ -1,0 +1,40 @@
+package:
+  dependencies:
+    - aff
+    - control
+    - effect
+    - either
+    - functions
+    - identity
+    - prelude
+    - safe-coerce
+    - spec
+    - tailrec
+    - transformers
+    - tuples
+  name: uncurried-transformers
+workspace:
+  extra_packages:
+    benchotron:
+      dependencies:
+        - arrays
+        - console
+        - datetime
+        - effect
+        - exceptions
+        - exists
+        - foldable-traversable
+        - identity
+        - lcg
+        - node-fs
+        - node-readline
+        - now
+        - numbers
+        - profunctor
+        - quickcheck
+        - strings
+        - transformers
+      git: https://github.com/PureFunctor/purescript-benchotron.git
+      ref: v0.15.0
+  package_set:
+    registry: 50.4.0
